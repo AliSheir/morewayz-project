@@ -1,0 +1,53 @@
+.EightBox-container{
+    width: 100%;
+    height: 323px;
+    display: flex;
+    justify-content: space-around;
+}
+.boxx{
+    width: 30%;
+    height: 322px;
+    display: flex;
+    text-align: center;
+    
+}
+.date-box{
+    border: 1px solid black;
+    width: 90px;
+height: 90px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: lightgray;
+}
+.detail{
+width: 313px;
+height: 322px;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+}
+.read-more-btn{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    background: none;
+    border: none;
+}
+@media screen and (max-width:500px){
+    .EightBox-container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
+@media screen and (max-width:500px){
+    .boxx{
+        display: flex;
+        width: 100%;
+        padding-left: 20px; 
+
+    }
+}

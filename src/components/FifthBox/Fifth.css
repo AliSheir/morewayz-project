@@ -1,0 +1,47 @@
+.Fifth-box-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    color: white;
+    background: rgb(2, 41, 73);
+
+}
+.iner-first-box{
+    width: 34%;
+    height: 100%;
+    display: flex;
+    color: white;
+
+}
+.second-iner-box{
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icon-font-cls{
+    font-size: 60px !important;
+    color: white;
+
+}
+.color-cls{
+    color: white;
+}
+@media screen and (max-width:500px){
+    .Fifth-box-container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .second-iner-box{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+
+    }
+
+}

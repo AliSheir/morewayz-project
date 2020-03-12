@@ -1,0 +1,8 @@
+.asz{
+    background-color: red !important;
+display: flex !important;
+justify-content: end !important;
+justify-items: end !important;
+align-content: flex-end !important;
+float: left !important;
+}

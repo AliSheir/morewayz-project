@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import "./Header.css";
 import 'antd/dist/antd.css';
+import NavBar from './Nav.js'
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LanguageIcon from '@material-ui/icons/Language';
 
 export default class Header extends Component {
     render() {
@@ -16,10 +21,16 @@ export default class Header extends Component {
 Cell : +123456789
                         </div>
                         <div className="box">
+<FacebookIcon  />
+<TwitterIcon />
+<LanguageIcon />
+<GitHubIcon   />
                         </div>
                     </div>
-                </div>
-
+                </div> 
+                <div className='nav'>
+                <NavBar />
+                    </div> 
             </div>
         )
     }

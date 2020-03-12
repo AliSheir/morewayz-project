@@ -1,0 +1,44 @@
+.Forth-box-container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1{
+    height: 399px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+
+
+}
+.iconBox{
+    border: 1px solid black;
+    width: 110px;
+    height: 110px;
+    border-radius: 50% ;
+    margin-bottom: 40px;
+    background-color: rgb(199, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.font-sizer{
+    font-size: 80px !important;
+}
+.iconBox:hover{
+    background-color: blue;
+    color: white;
+}
+@media screen and (max-width:500px){
+    .Forth-box-container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+      align-items: center
+    }
+}

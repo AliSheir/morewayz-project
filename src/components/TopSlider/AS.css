@@ -1,0 +1,39 @@
+.AS-container{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    color: white;
+}
+.lrn-btn{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(34, 34, 206);
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+}
+.clr-btn{
+    color: white;
+}
+@media screen and (max-width:500px){
+    .AS-container{
+        display: flex;
+        text-align: center;
+align-items: center;
+
+        width: 100%;
+        height: 100%;
+    }
+    .lrn-btn{
+        display: flex;
+text-align: center;
+align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+}

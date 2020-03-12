@@ -1,0 +1,16 @@
+.thirdBox-container{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.course-cat{
+    display: block ;
+}
+@media screen and (max-width:500px){
+    p{
+      margin: 0px 40px 0px 40px;
+    }
+}

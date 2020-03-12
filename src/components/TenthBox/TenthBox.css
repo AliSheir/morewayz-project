@@ -1,0 +1,69 @@
+.TenthBox-Container{
+    width: 100%;
+    height: 850px;
+    background-color: rgb(207, 204, 204);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+
+}
+.boxz{
+    width: 100%;
+    height: 150px;
+    text-align: center
+}
+.iner-box-container{
+width: 100%;
+height: 470px;  
+display: flex;
+justify-content: space-around;
+}
+.iner-boxz{
+    width: 25%;
+    height: 479px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.dolar-box{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(207, 204, 204);
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+.choz-btn{
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.choz-btn:hover{
+    background-color: rgb(41, 38, 38);
+    color: white;
+
+}
+@media screen and (max-width:500px){
+    .iner-box-container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-top: 20px
+    }
+    .iner-boxz{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .TenthBox-Container{
+        margin-top: 130px;
+        height: auto;
+
+    }
+}
